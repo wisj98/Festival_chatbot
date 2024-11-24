@@ -10,7 +10,7 @@ import pickle
 import time
 from datetime import datetime
 
-genai.configure(api_key="AIzaSyDndA4vlnZdh1jQ37BKEkOlQ3B3t1XMkyk")
+genai.configure(api_key="")
 assistant = genai.GenerativeModel("gemini-1.5-flash")
 
 def response_1(question):
